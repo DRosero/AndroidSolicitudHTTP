@@ -9,10 +9,6 @@ import androidx.appcompat.app.AppCompatActivity
 
 open class Network {
 
-
-
-
-
         @RequiresApi(Build.VERSION_CODES.M)
         fun validadRed(activity: AppCompatActivity):Boolean{
             val validadorRed=activity.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager;
@@ -30,5 +26,4 @@ open class Network {
             }
              return false;
         }
-
 }

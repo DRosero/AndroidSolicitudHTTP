@@ -2,4 +2,6 @@
     <string name="app_name">SolicitudHTTP</string>
     <string name="btnComprobarRed">Comprobar Red</string>
     <string name="btnSolicitudHTTP">Solicitud HTTP</string>
+    <string name="btnHTTPAsinc">Solicitud HTTP Asincrona</string>
+
 </resources>
